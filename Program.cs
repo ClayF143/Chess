@@ -1,7 +1,7 @@
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddRazorPages();
+builder.Services.AddRazorPages(); //WithRazorPagesRoot("/ChessBoard");
 
 var app = builder.Build();
 

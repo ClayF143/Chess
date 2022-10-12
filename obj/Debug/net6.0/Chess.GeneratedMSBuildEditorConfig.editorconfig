@@ -15,16 +15,16 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\SSA-Ron\source\repos\Chess\Chess
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/SSA-Ron/source/repos/Chess/Chess/Pages/ChessBoard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hlc3NCb2FyZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/SSA-Ron/source/repos/Chess/Chess/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/SSA-Ron/source/repos/Chess/Chess/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/SSA-Ron/source/repos/Chess/Chess/Pages/Index1.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgxLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/SSA-Ron/source/repos/Chess/Chess/Pages/Privacy.cshtml]
