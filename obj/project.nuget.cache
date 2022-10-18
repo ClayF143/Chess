@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "0nmGpVfm1V/Msu+LO8YOYbPAKYO2FaWvl5SURpicMs07B1zlqiXNaNVWrWtftisR030Nn15hnuMr9vCfQ8629Q==",
+  "dgSpecHash": "lkoDHGtmVpVE2HrS8umXRWHxTeHEZNREudVjECRSJ1QCVvPb/D9NWulIYCf6ohNprvGZN5xJE6+2yo/ZxJ7GJw==",
   "success": true,
   "projectFilePath": "C:\\Users\\SSA-Ron\\source\\repos\\Chess\\Chess\\Chess.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\SSA-Ron\\.nuget\\packages\\jquery\\3.6.0\\jquery.3.6.0.nupkg.sha512"
+  ],
   "logs": []
 }

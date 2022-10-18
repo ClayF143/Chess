@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "syHlrR0OiJ4nlLya/LU9KQ9GU0voRUa2XwU+PD0pjxM=",
+  "Hash": "/hH219Yg5Z3SpK1Dgcjyw/UNvgDUwkZT/KZsmKEscEA=",
   "Source": "Chess",
   "BasePath": "_content/Chess",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\SSA-Ron\\source\\repos\\Chess\\Chess\\wwwroot\\js\\boardScript.js",
+      "SourceId": "Chess",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SSA-Ron\\source\\repos\\Chess\\Chess\\wwwroot\\",
+      "BasePath": "_content/Chess",
+      "RelativePath": "js/boardScript.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\boardScript.js"
     },
     {
       "Identity": "C:\\Users\\SSA-Ron\\source\\repos\\Chess\\Chess\\wwwroot\\js\\site.js",

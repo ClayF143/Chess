@@ -3,18 +3,10 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace Chess.Pages
 {
-    public class IndexModel : PageModel
+    public class Index1Model : PageModel
     {
-        private readonly ILogger<IndexModel> _logger;
-
-        public IndexModel(ILogger<IndexModel> logger)
-        {
-            _logger = logger;
-        }
-
         public void OnGet()
         {
-
         }
     }
 }
