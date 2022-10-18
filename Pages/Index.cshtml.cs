@@ -7,6 +7,7 @@ namespace Chess.Pages
     {
         public void OnGet()
         {
+            ViewData["fen"] = "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR";
         }
     }
 }
