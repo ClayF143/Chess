@@ -5,11 +5,29 @@
 
     var myDivs = $('#chessboard').find('*');
     for (let i = 0; i < myDivs.length; i++) {
-        myDivs[i].onclick = function () { alert(this.id) }
+        myDivs[i].onclick = clickSquare;
     }
 })
 
-//reads from a hidden div, it's hardcoded but it's fine
+clickSquare = function () {
+    //alert(this.id);
+    $.ajax({
+        type: "POST",
+        url: "/Index?handler=SquareClick",
+        data: { "fen": $('#fen').text() },
+        contentType: 'application/x-www-form-urlencoded',
+        dataType: "json",
+        headers:
+        {
+            "RequestVerificationToken": $('input:hidden[name="__RequestVerificationToken"]').val()
+        },
+        success: function (msg) {
+            console.log(msg);
+        }
+    });
+}
+
+//reads from a hidden div to find fen, it's hardcoded but it's fine
 populateBoard = function () {
     var str = $('#fen').text();
 
@@ -71,6 +89,5 @@ function fenCharToHtmlChar(str) {
             return "&#9812";
         case 'P':
             return "&#9817";
-
     }
 }
